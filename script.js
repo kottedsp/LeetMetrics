@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
     } catch (error) {
       // Catch
       // Handle failure gracefully.
-      // Instead of crashing the app, you update UI:
+      // Instead of crashing the app, update UI:
       statsContainer.innerHTML = "<p>No data found</p>";
     } finally {
       searchButton.textContent = "Search";
